@@ -1,3 +1,5 @@
+import React from "react"
+
 const stock = {
     Paragraph: ({children}) => <p>{children}</p>,
     Divider: () => <hr />,
