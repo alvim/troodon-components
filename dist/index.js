@@ -17,11 +17,12 @@ var stock = {
   Divider: function Divider() {
     return _react["default"].createElement("hr", null);
   },
-  Span: function Span() {
-    return _react["default"].createElement("span", null);
-  },
-  Banner: function Banner(_ref2) {
+  Span: function Span(_ref2) {
     var children = _ref2.children;
+    return _react["default"].createElement("span", null, children);
+  },
+  Banner: function Banner(_ref3) {
+    var children = _ref3.children;
     return _react["default"].createElement("div", null, children);
   }
 };
